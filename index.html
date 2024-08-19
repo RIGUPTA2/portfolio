@@ -5,63 +5,166 @@
   <script src="js/resume.js"></script>
 </head>
 <body>
-  <div class="sidebar">
-
-    <img src="img/profile.jpg"/>
-    <br/>
-    <br/>
-    <div class="sidebarChild">
-      <div id="sCO" onClick=toggle(this.id);>Career Objective</div>
-      <div id="sPE" onClick=toggle(this.id);>Professional Experience</div>
-      <div id="sE" onClick=toggle(this.id);>Education</div>
-      <div id="sC" onClick=toggle(this.id);>Certification</div>
-      <div id="sA" onClick=toggle(this.id);>Awards</div>
-      <div id="sT" onClick=toggle(this.id);>Trainings</div>
-      <div id="sW" onClick=toggle(this.id);>Workshops</div>
-      <div id="sCrs" onClick=toggle(this.id);>Courses</div>
-      <div id="sP" onClick=toggle(this.id);>Projects</div>
-      <div id="sEC" onClick=toggle(this.id);>Extra Curricular</div>
-      <div id="sH" onClick=toggle(this.id);>Hobbies</div>
-      <div id="sCon" onClick=toggle(this.id);>Contact</div>
+  <div class="headerRow">
+    <div class="headerColumnLeft">
+      <img class = "profilePic" src="img/profile.jpg"/>
+    </div>
+    <div class="headerColumnRight">
+        <h1>Rishi Gupta</h1>
+        <ul>
+          <li>Native: Jammu, J&K, India | Present Address: Gurgaon</li>
+          <li>Email: careers.rishi.gupta@gmail.com | Phone: +91-9971997658</li>
+          <li>GitHub Profile: https://github.com/RIGUPTA2</li>
+          <li>LinkedIn Profile: https://www.linkedin.com/in/rishiguptacse/</li>
+        </ul>
     </div>
   </div>
-  <div class="body-text">
-    <!-- body content -->
-    <div id="sCO_Content">
-      <h3>
-        Career Objective
-      </h3>
-      <p>Seeking an Engineering Manager or Senior leadership role where I can leverage my technical expertise and leadership skills to drive innovation and achieve the organization's strategic business objectives.</p>
-    </div>
+  <hr/>
 
-    <div id="sPE_Content">
-      <h3>
-        Professional Experience
-      </h3>
-      <p>
+  <div class="coRow">
+    <h3 class="coColumnLeft">Career Objective</h3>
+    <span class="coColumnRight">Seeking an Engineering Manager or Senior leadership role where I can leverage my technical expertise and leadership skills to drive innovation and achieve the organization's strategic business objectives.</span>
+  </div>
+  <hr/>
 
-      </p>
+  <h3>Professional Experience</h3>
+  <div class="equalColumnRow">
+    <div class="equalColumn">
+      <ul>
+        <li>Zenatix Solutions Pvt. Ltd. by Schneider Electric, Gurugram, Haryana (June 2021 to Present)</li>
+        <li>Model Institute of Engineering & Technology (MIET), Kot Bhalwal, Jammu, J&K (Jan 2015 to June 2021)</li>
+      </ul>
     </div>
-    <div id="sE_Content">
+    <div class="equalColumn">
+      <ul>
+        <li>IBM Gurgaon, Haryana: Sep 2009 to Dec 2015 (Worked with Large Banking Client from Singapore)</li>
+        <li>IBM Hyderabad, Andhra Pradesh: July 2007 to Sep 2009 (Worked with Telecom Service Provider - Finland)</li>
+      </ul>
+    </div>
+  </div>
+  <hr/>
+
+  <div class="equalColumnRow">
+    <div class="equalColumn">
+      <h3>Awards</h3>
+      <ul>
+        <li>Build for the Future Award in recognition of research publications & output in MIET</li>
+        <li>Received award for PI-360 product under Faculty Lead Startups category in IISF 2017 National Startup Summit in IIT Madras</li>
+        <li>Received IBM Orion and Star awards for consistently showcasing leadership, mentorship & operational excellence skills</li>
+        <li>Received first prize for the “Best Technical Idea” and also won the prize for the maximum number of ideas contributed in IBM</li>
+      </ul>
+    </div>
+    <hr class="hiddenRow"/>
+
+    <div class="equalColumn">
+      <h3>Trainings & Workshops</h3>
+      <ul>
+        <li>Completed Training on “Design Thinking & Innovations” - IIC Innovation Ambassador Training Series (Jan 2020)</li>
+        <li>Attended workshop on AI/DL conducted by LeadingIndia.AI, a nation wide initiative by Bennett University (June 2018)</li>
+        <li>Attended workshop on Neural Network Deployment with DIGITS and TensorRT conducted by Nvidia (June 2018)</li>
+        <li>Attended one-week Faculty Development Program in BVICAM on Emerging Research Trends Computer Science and IT (July 2016)</li>
+        <li>LaTeX Training by Spoken Tutorial, IIT Bombay, National Mission on Education through ICT, MHRD, Govt. of India (Mar 2016)</li>
+      </ul>
+    </div>
+  </div>
+  <hr/>
+
+  <div class="fourColumnRow">
+    <div class="firstColumn">
+      <h3>Certification</h3>
+      <ul>
+        <li>AWS Solutions Architect Associate, 2018</li>
+        <li>Accredited Instructor: AWS Cloud Computing Architect, 2018</li>
+        <li>Sun Certified Programmer for the Java Platform, SE 5.0, 2009</li>
+        <li>AIX Basic Operations V5, 2007</li>
+        <li>Introduction to Oracle9i SQL, 2007</li>
+        <li>ISTQB certified Tester Foundation Level, 2007</li>
+      </ul>
+    </div>
+    <hr class="hiddenRow"/>
+    
+    <div class="secondColumn">
       <h3>Education</h3>
       <ul>
         <li>M.S. in Software Systems, B.I.T.S. Pilani, Rajasthan, 2013</li>
         <li>B. Tech. Mechanical Engineering, N.I.T. Rourkela, Orissa, 2007</li>
         <li>Class XII C.B.S.E., M.H.A.C. School, Nagbani, Jammu, J&K, 2003</li>
         <li>Class X C.B.S.E., M.H.A.C. School, Nagbani, Jammu, J&K, 2001</li>
+      </ul>  
+    </div>
+    <hr class="hiddenRow"/>
+    
+    <div class="thirdColumn">
+      <h3>Degree Projects & Industrial Trainings(IT)</h3>
+      <ul>
+        <li>M. Tech. Dissertation Project: J2EE System Design</li>
+        <li>B. Tech. Project: Designed Image Processing based Robot</li>
+        <li>Modeled Micro-controller based Automated Robot in NITR</li>
+        <li>Designed best Robot in IIT Roorkee Tech. competition</li>
+        <li>IT: R.S.P., Orissa: Steel Rolling & Milling Process (July 2006)</li>
+        <li>IT: B.A.R.C., Maharashtra: Kinetics in Robotic Arms (July 2005)</li>
       </ul>
     </div>
-    <div id="sC_Content">Certification</div>
-    <div id="sA_Content">Awards</div>
-    <div id="sT_Content">Trainings</div>
-    <div id="sW_Content">Workshops</div>
-    <div id="sCrs_Content">Courses</div>
-    <div id="sP_Content">Projects</div>
-    <div id="sEC_Content">Extra Curricular</div>
-    <div id="sH_Content">Hobbies</div>
-    <div id="sCon_Content">Contact</div>
+    <hr class="hiddenRow"/>
+    
+    <div class="fourthColumn">
+      <h3>Extra Curricular & Hobbies</h3>
+      <ul>
+        <li>Won the first prize in TT tournament in doubles in IBM</li>
+        <li>Won the first prize in NIT Rourkela AutoCAD Designing</li>
+        <li>Won the first prize in Carrom in singles and doubles in NITR</li>
+        <li>Study wide gamut of books</li>
+        <li>Play Carrom, Cricket, Table Tennis, Pool</li>
+        <li>Watching all genre movies & Researching on Youtube</li>
+      </ul>
+    </div>    
   </div>
+  <hr/>
+
+  <h3>Courses</h3>
+  <div class="fourColumnRow">
+    <div class="firstColumn">
+      <ul>
+        <li>Programming, DSA, Networks, Databases & Operating System</li>
+        <ul>
+          <li>Course1</li>
+          <li>Course2</li>
+        </ul>  
+      </ul>  
+    </div>
+    
+    <div class="secondColumn">
+      <ul>
+        <li>Backend, Test Driven, Secure, Full Stack & AI/ML Development</li>
+        <ul>
+          <li>Course1</li>
+          <li>Course2</li>
+        </ul>
+      </ul>  
+    </div>
+    
+    <div class="thirdColumn">
+      <ul>
+        <li>Project / Product Management, Business & Leadership</li>
+        <ul>
+          <li>Course1</li>
+          <li>Course2</li>
+        </ul>
+      </ul>
+    </div>
+  
+    <div class="fourthColumn">
+      <ul>
+        <li>Watching all genre movies & Researching on Youtube</li>
+        <ul>
+          <li>Course1</li>
+          <li>Course2</li>
+        </ul>
+      </ul>
+    </div>    
+  </div>
+
+  <hr/>
+
 </body>
 </html>
-
-

@@ -1,55 +1,157 @@
-.sidebar {
-  height: 100%;
-  width: 250px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  padding-left: 10px;
-  background-color: rgba(215, 218, 220, 0.558);
-  font-family:"verdana";
-}
-img {
-  box-sizing: border-box;
-  margin-right: auto !important;
+.profilePic {
   border-radius: 50%;
-  width: 130px;
-  height: 130px;
-  max-width: 100%;
-  position: absolute;
-  top: 20%;
-  margin-left: 30px;
-  border: 6px solid  rgba(215, 218, 220, 0.558);
+  width: 100px;
+  height: 100px;
+  border: 6px solid rgba(0, 102, 255, 0.73);
+  margin-left: auto !important;
 }
-.sidebarChild{
-  font-size: 14px;
-  font-family:"verdana";
-  position: absolute;
+
+h1,h3,h6 {
   color: rgba(0, 102, 255, 0.73);
-  top: 40%;
-  margin-left: 30px;
+  margin: 0px;
 }
-
-#sCO, #sPE, #sE, #sC, #sA, #sT, #sW, #sCrs,
-#sP, #sEC, #sH, #sCon, #tt:hover{
-  cursor: pointer;
-  margin: 5px;
+hr {
+  margin: 6px;
 }
-
-.body-text {
-  margin-left: 300px;
-  font-size: 14px;
-  font-family:"verdana";
-  position: absolute;
-  top: 40%;
-}
-#sPE_Content, #sE_Content, #sC_Content, #sA_Content,
-#sT_Content, #sW_Content, #sCrs_Content, #sP_Content,
-#sEC_Content, #sH_Content, #sCon_Content {
+.hiddenRow{
   display: none;
 }
-h3 {
-  color: rgba(0, 102, 255, 0.73);
+
+span{
+  font-size: 12px;
+  color: black;
+  font-weight:normal;
 }
-p {
-  margin-right: 60px;
+ul{
+  margin: 0px;
+  font-size: 12px;
+  padding-left: 15px;
+}
+
+.headerRow {
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  display: flex;
+  border: 2px solid gray;
+  border-radius: 10px;
+  align-items: center;
+  background-color: white;
+}
+.headerColumnLeft {
+  width: 8%;
+  padding: 3px;
+}
+
+.coRow {
+  display: flex;
+  align-items:flex-end;
+}
+.coColumnLeft {
+  width: 141px;
+  padding: 0px;
+}
+
+.coContent {
+  list-style-type: none;
+  font-size: 12px;
+  color: black;
+  font-weight:normal;
+}
+
+/* Clear floats after the columns */
+.fourColumnRow {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.fourColumn {
+  float: left;
+}
+.firstColumn {
+  width: 25%;
+}
+.secondColumn {
+  width: 25%;
+}
+.thirdColumn {
+  width: 25%;
+}
+.fourthColumn {
+  width: 25%;
+}
+
+.equalColumnRow {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.equalColumn {
+  width: 50%;
+}
+
+@media only screen and (max-width: 800px){
+  .headerRow{
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .headerColumnLeft {
+    width: 100%;
+    padding-bottom: 0px;
+    margin-left: 20px;
+    display: none;
+  }
+  .headerColumnRight {
+    width: 100%;
+    margin-left: 20px;
+    padding-bottom: 5px;
+  }
+  .coRow{
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .coColumnLeft {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .coColumnRight {
+    width: 100%;
+    margin-left: 5px;
+  }
+
+  .equalColumnRow{
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .equalColumn {
+    width: 100%;
+  }
+  .fourColumnRow{
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .firstColumn {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .secondColumn {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .thirdColumn {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .fourthColumn {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .hiddenRow{
+    display: block;
+  }
 }
