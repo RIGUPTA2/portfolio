@@ -6,6 +6,18 @@
   margin-left: auto !important;
 }
 
+.minusIcon, .reads_list_items, .courses_list_items { 
+  display: none;
+}
+
+#reads_plus, #courses_plus, #reads_minus, #courses_minus {
+  margin-top: 6px;
+}
+
+#reads_plus, #reads_minus, #courses_plus, #courses_minus {
+  cursor: pointer;
+}
+
 h1,h3 {
   color: rgba(0, 102, 255, 0.73);
   margin: 0px;
@@ -53,6 +65,7 @@ ul{
   display: flex;
   align-items:flex-end;
 }
+
 .coColumnLeft {
   width: 141px;
   padding: 0px;
@@ -95,6 +108,16 @@ ul{
 .equalColumn {
   width: 50%;
 }
+
+.courseHeaderRow {
+  display: flex;
+  align-items:flex-start;
+}
+.coursesColumnLeft{
+  width: 70px;
+    padding: 0px;
+}
+
 
 @media only screen and (max-width: 1200px){
   .headerRow{

@@ -140,92 +140,128 @@
   </div>
   <hr/>
 
-  <h3>Book(s) | Course(s) | Project(s)</h3>
-  <div class="fourColumnRow">
-    <div class="firstColumn">
-      <h6>Programming &  Data structures & Algorithms</h6>
-      <ul>
-        <li>Udemy: Clean Code</li>
-        <li>Udemy: Leetcode</li>
-      </ul>
-      <h6>Computer Networks</h6>
-      <ul>
-        <li>Udemy; Fundamentals of Network Engineering</li>
-      </ul>
-      <h6>Databases Engineering</h6>
-      <ul>
-        <li>Udemy: Fundamentals of Database Engineering</li>
-      </ul>
-      <h6>Operating System</h6>
-      <ul>
-        <li>Udemy: Fundamentals of Operating System</li>
-      </ul>
-      <h6>Servers & Tools</h6>
-      <ul>
-        <li>Udemy: Introduction to Nginx - In Progress</li>
-        <li>Udemy: VS Code</li>
-      </ul>
-    </div>
+  <div class="equalColumnRow">
+    <div class="equalColumn">
+      <div class="courseHeaderRow">
+        <h3 class="coursesColumnLeft">Courses </h3>
+        <img id="courses_plus" onclick="toggle('courses',this);" width ="12px" src="img/plus.png"/>
+        <img id="courses_minus" onclick="toggle('courses',this);" class="minusIcon" width ="12px" src="img/minus.png"/>
+      </div>
+      <div class="equalColumnRow">
+        <div class="equalColumn">
+          <h6>Programming</h6>
+          <ul id="courses_list_items_1" class="courses_list_items">
+            <li>Udemy: Clean Code</li>
+            <li>Udemy: Leetcode</li>
+          </ul>
+          <h6>Core Computer Subjects</h6>
+          <ul id="courses_list_items_2" class="courses_list_items">
+            <li>Udemy; Fundamentals of Network Engineering</li>
+            <li>Udemy: Fundamentals of Database Engineering</li>
+            <li>Udemy: Fundamentals of Operating System</li>
+          </ul>
+          <h6>Servers & Tools</h6>
+          <ul id="courses_list_items_3" class="courses_list_items">
+            <li>Udemy: Introduction to Nginx - In Progress</li>
+            <li>Udemy: VS Code</li>
+          </ul>
+          <h6>Development</h6>
+          <ul id="courses_list_items_4" class="courses_list_items">
+            <li>Coursera: Data Science Specialization (The Data Scientist Toolbox, R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Statistical Inference, Practical Machine Learning, Regression Models, Reproducible Research, Developing Data Products)</li>
+            <li>Udemy: LangChain: Develop LLM powered applications with LangChain</li>
+          </ul>
+          <h6>System Design</h6>
+          <ul id="courses_list_items_5" class="courses_list_items">
+            <li>Udemy: Introduction to Nginx - In Progress</li>
+            <li>Udemy: VS Code</li>
+          </ul>
+        </div>
     
-    <div class="secondColumn">
-      <h6>Backend Development</h6>
-      <ul>
-        <li>Django</li>
-      </ul>
-      <h6>Test Driven Development</h6>
-      <ul>
-        <li>Nginx</li>
-        <li>VS Code</li>
-      </ul>
-      <h6>Secure Development</h6>
-      <ul>
-        <li>Nginx</li>
-        <li>VS Code</li>
-      </ul>
-      <h6>Full Stack Development</h6>
-      <ul>
-        <li>Nginx</li>
-        <li>VS Code</li>
-      </ul>
-      <h6>AI/ML Development</h6>
-      <ul>
-        <li>Data Science Specialization from Coursera (courses: The Data Scientist Toolbox, R Programming, Getting and Cleaning Data, Exploratory Data Analysis, Statistical Inference, Practical Machine Learning, Regression Models, Reproducible Research, Developing Data Products)</li>
-        <li>LangChain- Develop LLM powered applications with LangChain</li>
-      </ul>
+        <div class="equalColumn">
+          <h6>Architecture</h6>
+          <ul id="courses_list_items_6" class="courses_list_items">
+            <li>Udemy: Introduction to NGINX - In Progress</li>
+            <li>Course2</li>
+          </ul>
+          <h6>DevSecOps</h6>
+          <ul id="courses_list_items_7" class="courses_list_items">
+            <li>Udemy: Introduction to NGINX - In Progress</li>
+            <li>Course2</li>
+          </ul>
+          <h6>Management</h6>
+          <ul id="courses_list_items_8" class="courses_list_items">
+            <li>Course1</li>
+            <li>Course2</li>
+          </ul>
+          <h6>Business</h6>
+          <ul id="courses_list_items_9" class="courses_list_items">
+            <li>Course1</li>
+            <li>Course2</li>
+          </ul>
+          <h6>Leadership</h6>
+          <ul id="courses_list_items_10" class="courses_list_items">
+            <li>Course1</li>
+            <li>Course2</li>
+          </ul>
+        </div>
+      </div>
     </div>
-    
-    <div class="thirdColumn">
-      <h6>System Design, Architecture, Cloud Computing & DevSecOps</h6>
-      <ul>
-        <li>Udemy: Introduction to NGINX - In Progress</li>
-        <li>Course2</li>
-      </ul>
+    <hr class="hiddenRow"/>
+
+    <div class="equalColumn">
+      <div class="equalColumnRow">
+        <div class="equalColumn">
+          <div class="courseHeaderRow">
+            <h3 class="coursesColumnLeft">Reads </h3>
+            <img id="reads_plus" onclick="toggle('reads',this);" width ="12px" src="img/plus.png"/>
+            <img id="reads_minus"  onclick="toggle('reads',this);" class="minusIcon" width ="11px" src="img/minus.png"/>
+          </div>
+          <h6>Biographies & Autobiographies</h6>
+          <ul id="reads_list_items_1" class="reads_list_items">
+            <li>Autobiography of a Yogi</li>
+            <li>Many Lives Many Masters</li>
+            <li>Wings of Fire</li>
+            <li>The Story of My Experiments with Truth</li>
+            <li>World's Greatest Leaders</li>
+            <li>World's Greatest Scientists & Innovators</li>
+            <li>World's Greatest Entrepreneurs</li>
+          </ul>
+          <h6>Business, Finance & Economics</h6>
+          <ul id="reads_list_items_2" class="reads_list_items">
+            <li>Psychology of Money</li>
+            <li>Think & Grow Rich</li>
+          </ul>
+          <h6>History, Philosophy & Spirituality</h6>
+          <ul id="reads_list_items_3" class="reads_list_items">
+            <li>Shiv Puran</li>
+          </ul>
+          <h6>Science & Technology</h6>
+          <ul id="reads_list_items_4" class="reads_list_items">
+            <li>System Design Interview 1 & 2</li>
+            <li>Designing Data Intensive Applications</li>
+          </ul>
+          <h6>Personal Development</h6>
+          <ul id="reads_list_items_5" class="reads_list_items">
+            <li>Don't Believe Everything you Think</li>
+            <li>How to Win Friends & Influence People</li>
+            <li>The Power of Your Subconcious Mind</li>
+            <li>The Compound Effect</li>
+          </ul>
+        </div>
+        <hr class="hiddenRow"/>
+
+        <div class="equalColumn">
+          <h3>Projects</h3>
+          <h6>Portfolio GitHub Page using HTML, CSS & JS</h6>
+          <h6>Project 2</h6>
+          <h6>Project 3</h6>
+          <h6>Project 4</h6>
+          <h6>Project 5</h6>
+          </ul>
+        </div>
+      </div>
     </div>
-  
-    <div class="fourthColumn">
-      <h6>Project Management</h6>
-      <ul>
-        <li>Course1</li>
-        <li>Course2</li>
-      </ul>
-      <h6>Product Management</h6>
-      <ul>
-        <li>Course1</li>
-        <li>Course2</li>
-      </ul>
-      <h6>Business</h6>
-      <ul>
-        <li>Course1</li>
-        <li>Course2</li>
-      </ul>
-      <h6>Leadership</h6>
-      <ul>
-        <li>Course1</li>
-        <li>Course2</li>
-      </ul>
-    </div>    
   </div>
   <hr/>
-
 </body>
 </html>
