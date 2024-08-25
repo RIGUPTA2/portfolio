@@ -114,10 +114,8 @@ ul{
   align-items:flex-start;
 }
 .coursesColumnLeft{
-  width: 70px;
-    padding: 0px;
+  margin-right: 3px;
 }
-
 
 @media only screen and (max-width: 1200px){
   .headerRow{
